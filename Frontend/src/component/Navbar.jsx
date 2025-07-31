@@ -19,7 +19,7 @@ function Navbar() {
             to="/"
             className="text-2xl font-bold text-emerald-400 items-center space-x-2 flex"
           >
-            Acconet
+            A.C Collections
           </Link>
           <nav className="flex flex-wrap items-center gap-4">
             <Link
