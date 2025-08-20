@@ -1,16 +1,9 @@
-import {
-  FaInstagram,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-4 mt-8">
       <div className="container mx-auto flex justify-center gap-6">
-   
-
         <a
           href="https://www.instagram.com/a.connectcollections?igsh=eWRsdTcxNzc1c3J2"
           target="_blank"
@@ -23,7 +16,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://www.tiktok.com/@a.connectcollections?_t=8lbIVfaVXu9&_r=1 "
+          href="https://www.tiktok.com/@a.connectcollections?_t=8lbIVfaVXu9&_r=1"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -37,7 +30,7 @@ function Footer() {
           <FaWhatsapp size={28} className="hover:text-emerald-400 transition" />
         </a>
         <a
-          href="https://www.youtube.com/@a.connectcollections "
+          href="https://www.youtube.com/@a.connectcollections"
           target="_blank"
           rel="noopener noreferrer"
         >
