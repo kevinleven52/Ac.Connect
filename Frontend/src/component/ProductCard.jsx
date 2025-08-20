@@ -43,15 +43,15 @@ const ProductCard = ({ product }) => {
         </h5>
         <div className="mt-2 mb-5 flex items-center justify-between">
           <p>
-            <span className="text-3xl font-bold text-emerald-400">
+            <span className="text-3xl font-bold text-yellow-900">
               ₦{product.price}
             </span>
           </p>
         </div>
         {!isAdmin && (
           <button
-            className="flex items-center justify-center rounded-lg bg-emerald-600 px-5 py-2.5 text-center text-sm font-medium
-						 text-white hover:bg-emerald-700 focus:outline-none focus:ring-4 focus:ring-emerald-300"
+            className="flex items-center justify-center rounded-lg bg-yellow-900 px-5 py-2.5 text-center text-sm font-medium
+    text-white hover:bg-yellow-800 focus:outline-none focus:ring-4 focus:ring-yellow-800"
             onClick={handleAddToCart}
           >
             <ShoppingCart size={22} className="mr-2" />

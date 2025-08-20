@@ -13,7 +13,7 @@ const CategoryItem = ({ category }) => {
             loading="lazy"
           />
           <div className="absolute bottom-0 left-0 right-0 p-4 z-20">
-            <h3 className="text-white text-2xl font-bold mb-2">
+            <h3 className="text-yellow-900 text-2xl font-bold mb-2">
               {category.name}
             </h3>
             <p className="text-gray-200 text-sm">Explore {category.name}</p>

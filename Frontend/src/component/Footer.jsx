@@ -9,32 +9,28 @@ function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram
-            size={28}
-            className="hover:text-emerald-400 transition"
-          />
+          <FaInstagram size={28} className="hover:text-yellow-900 transition" />
         </a>
-
         <a
           href="https://www.tiktok.com/@a.connectcollections?_t=8lbIVfaVXu9&_r=1"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaTiktok size={28} className="hover:text-emerald-400 transition" />
+          <FaTiktok size={28} className="hover:text-yellow-900 transition" />
         </a>
         <a
           href="https://wa.me/c/2347071111056"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaWhatsapp size={28} className="hover:text-emerald-400 transition" />
+          <FaWhatsapp size={28} className="hover:text-yellow-900 transition" />
         </a>
         <a
           href="https://www.youtube.com/@a.connectcollections"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaYoutube size={28} className="hover:text-emerald-400 transition" />
+          <FaYoutube size={28} className="hover:text-yellow-900 transition" />
         </a>
       </div>
       <div className="text-center mt-2 text-sm text-gray-400">
